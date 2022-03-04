@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Bootstrap Tutorial Sample Page</title>
+        <title>Nathan's CV</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
@@ -14,7 +14,7 @@
         <script src="main.js"></script>
 	</body>
 
-	<nav class="navbar navbar-expand-md">
+	<nav class="navbar navbar-expand-md sticky-top">
         <a class="navbar-brand" href="#">Logo</a>
         <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
             <span class="navbar-toggler-icon"></span>
@@ -44,12 +44,12 @@
     <div class="container features">
         <div class="row">
             <div class="col-lg-4 col-md-4 col-sm-12">
-                <h3 class="feature-title">Education</h3>
+                <h1 class="feature-title">Education</h3>
                 <img src="images/motarboard_hat.jpg" class="img-fluid" width="400" height="500">
             </div>
             
             <div class="col-lg-4 col-md-4 col-sm-12">
-                <h3 class="feature-title">Github</h3>
+                <h2 class="feature-title">Github</h3>
                 <img src="images/github_logo.svg" class="img-fluid" width="400" height="500">
             </div>
             
@@ -59,4 +59,32 @@
             </div>
         </div>
     </div>
+
+    <div class="row">
+        <div class="col-4">
+          <div class="list-group" id="list-tab" role="tablist">
+            <a class="list-group-item list-group-item-action active" id="list-home-list" data-bs-toggle="list" href="#list-home" role="tab" aria-controls="list-home">Home</a>
+            <a class="list-group-item list-group-item-action" id="list-profile-list" data-bs-toggle="list" href="#list-profile" role="tab" aria-controls="list-profile">Profile</a>
+            <a class="list-group-item list-group-item-action" id="list-messages-list" data-bs-toggle="list" href="#list-messages" role="tab" aria-controls="list-messages">Messages</a>
+            <a class="list-group-item list-group-item-action" id="list-settings-list" data-bs-toggle="list" href="#list-settings" role="tab" aria-controls="list-settings">Settings</a>
+          </div>
+        </div>
+        <div class="col-8">
+            <div class="tab-content" id="nav-tabContent">
+                <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
+                    <p>Lorem ipsum</p>
+                </div>
+                <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">...
+
+                </div>
+                <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">...
+
+                </div>
+                <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">...
+
+                </div>
+            </div>
+        </div>
+    </div>
+    
 </html>

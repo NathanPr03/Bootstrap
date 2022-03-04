@@ -66,6 +66,7 @@ body {
 	font-weight: 700;
 	margin-bottom: 20px;
 	text-transform: uppercase;
+	text-align: center;
 }
 .features img {
     background-color: #ffffff;
@@ -73,4 +74,27 @@ body {
 	-moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
 	box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
 	margin-bottom: 16px;
+}
+
+.grades {
+	color: #a239ca;
+	text-align: center;
+}
+
+.grades h1 {
+	text-align: center;
+}
+
+.attended-date {
+	color: #a239ca;
+	font-size: 1.2rem;
+	font-weight: 700;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.grades h3 {
+	font-size: 1rem;
+	background-color: #212529;
 }
